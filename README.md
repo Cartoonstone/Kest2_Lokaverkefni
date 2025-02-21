@@ -10,5 +10,11 @@ KEST2VW-TorsteinnHeidarHreimsson
 * #### after that i installed and setup [Python](https://www.python.org/downloads/) and [VS Code](https://code.visualstudio.com/)
 
 * #### after that i installed and setup [Git](https://www.python.org/downloads/)
+* <img width="302" alt="kest2-mynd1" src="https://github.com/user-attachments/assets/1b06a5a9-1bd8-4392-a87d-689073ba12bf" />
+
+
   
 ## 2. Notendur
+* ### ég bjó til hópana: Innkaup, Sala, Yfirstjórn og Allir
+* <img width="71" alt="kest2-mynd2" src="https://github.com/user-attachments/assets/24246454-c59b-4901-a822-2de828dea08f" />
+*

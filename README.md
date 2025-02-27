@@ -31,3 +31,22 @@ Baldvin Kr Baldvinsson,Baldvin,Baldvinsson,BalBal,Sala
 Guðmundur Óskar Bjarnason,Guðmundur,Bjarnason,GudBja,Sala
 Per Stephansen,Per,Stephansen,PerSte,Sala
 ```
+* ### ég bjó til þetta powershell script til að importa users 
+
+```powershell
+$gogn = Import-Csv C:\Users\steini\Desktop\vscode\vinnumen.csv
+foreach($faersla in $gogn) {
+    $nafn = $faersla.nafn
+    $fnanf = $faersla.fornafn
+    $enafn = $faersla.eftirnafn
+    $notendanafn = $faersla.notendanafn
+    $hopur = $faersla.hopur
+    $password = Read-Host "sláðu inn lykilorð" -AsSecureString
+    New-LocalUser -Name $notendanafn -Password $password 
+    Add-LocalGroupMember -Group $hopur -Member $notendanafn
+    Add-LocalGroupMember -Group "Allir" -Member $notendanafn
+}
+```
+
+
+

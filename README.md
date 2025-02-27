@@ -31,7 +31,7 @@ Baldvin Kr Baldvinsson,Baldvin,Baldvinsson,BalBal,Sala
 Guðmundur Óskar Bjarnason,Guðmundur,Bjarnason,GudBja,Sala
 Per Stephansen,Per,Stephansen,PerSte,Sala
 ```
-* ### ég bjó til þetta powershell script til að importa users 
+* ### ég bjó til þetta powershell script til að importa users frá Csv skjali
 
 ```powershell
 $gogn = Import-Csv C:\Users\steini\Desktop\vscode\vinnumen.csv
@@ -47,6 +47,28 @@ foreach($faersla in $gogn) {
     Add-LocalGroupMember -Group "Allir" -Member $notendanafn
 }
 ```
+* <img width="291" alt="kest2-mynd3" src="https://github.com/user-attachments/assets/83368e8d-98c4-4b1c-8a46-edadb196ce5c" />
+
+* <img width="202" alt="kest2-mynd4" src="https://github.com/user-attachments/assets/73a5b190-91a9-4af3-a5f5-db701645e263" />
+
+## 3. Skrár, möppur og réttind
+
+* ### ég bjó til möppu fyrir hvern hóp og lét texta skjal í allar möppurnar
+
+* ![kest2-mynd5](https://github.com/user-attachments/assets/034fddf8-4ac5-4a18-9f5f-48f9df9ecca9)
+
+* ![kest2-mynd6](https://github.com/user-attachments/assets/6b129950-9adc-4b2f-a34c-e5917462d18a)
+
+* ### 4. Öryggismál
+
+* 
+
+
+
+
+
+
+
 
 
 

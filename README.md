@@ -9,7 +9,7 @@ KEST2VW-TorsteinnHeidarHreimsson
 ```
 * #### after that i installed and setup [Python](https://www.python.org/downloads/) and [VS Code](https://code.visualstudio.com/)
 
-* #### after that i installed and setup [Git](https://www.python.org/downloads/)
+* #### after that i installed and setup [Git](https://git-scm.com/)
 * <img width="302" alt="kest2-mynd1" src="https://github.com/user-attachments/assets/1b06a5a9-1bd8-4392-a87d-689073ba12bf" />
 
 
@@ -39,7 +39,7 @@ foreach($faersla in $gogn) {
     $nafn = $faersla.nafn
     $fnanf = $faersla.fornafn
     $enafn = $faersla.eftirnafn
-    $notendanafn = $faersla.notendanafn
+    $notendanafn = $faersla.notendanaf0
     $hopur = $faersla.hopur
     $password = Read-Host "sláðu inn lykilorð" -AsSecureString
     New-LocalUser -Name $notendanafn -Password $password 
@@ -59,9 +59,14 @@ foreach($faersla in $gogn) {
 
 * ![kest2-mynd6](https://github.com/user-attachments/assets/6b129950-9adc-4b2f-a34c-e5917462d18a)
 
-* ### 4. Öryggismál
+## 4. Öryggismál
 
-* 
+* ### ég breyti lykilorðareglunum svo þau þurfa að vera að minnsta kosti 8 stafir og þau þurfa að vera flókin
+* ![kest2-mynd7](https://github.com/user-attachments/assets/160847bb-454a-41c6-b0c5-161435ca5597)
+* ![kest2-mynd8](https://github.com/user-attachments/assets/9f114355-5edb-488b-8993-24f2060ac9c5)
+  +ég lokaði á allri innkomandi nema ping
+
+
 
 
 
